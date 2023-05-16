@@ -1,4 +1,4 @@
-import "./styles.css";
+// import "./styles.css";
 let main_display = "";
 let calc_operation = document.getElementById("calc-operation");
 let calc_typed = document.getElementById("calc-typed");
