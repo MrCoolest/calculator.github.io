@@ -1,8 +1,8 @@
-// import "./styles.css";
+//import "./styles.css";
 let main_display = "";
 let calc_operation = document.getElementById("calc-operation");
 let calc_typed = document.getElementById("calc-typed");
-console.log(calc_operation.innerHTML);
+//console.log(calc_operation.innerHTML);
 calc_operation.innerHTML = main_display;
 
 const chars = {
@@ -14,7 +14,7 @@ const chars = {
 };
 
 var calculator_func = (event) => {
-  console.log(event.target.value);
+  //console.log(event.target.value);
   const value = event.target.value;
   let prev = "";
   if (value === "ac") {
